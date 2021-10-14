@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Interface.h
+memory
+-
+
+/home/zaragesh/develop/general/impl_Pattern/src/Implementation.cpp
+Interface.h
+-
+memory
+-
+iostream
+-
+
+/home/zaragesh/develop/general/impl_Pattern/src/main.cpp
+Interface.h
+-
+
